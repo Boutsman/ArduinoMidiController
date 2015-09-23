@@ -1,12 +1,20 @@
 # ArduinoMidiController
-This is an open-source midi-controller.
+This is an open-source midi-controller. More information can be found at boutsman.be
 
-Features:
-- Read digital inputs
-- Read analog inputs
+Data for the midi messages is stored in different arrays. Each button/fader gets a number that corresponds to the location in the arrays that store the data for the messages.
+
+Should there be need for more inputs, a multiplexer an be used.
+
+Adjustable parameters for each control:
+- Midi Channel
+- Midi Note
+
+v1.1
+- readAnalog(pinNr,arrayPosition)
+- readDigital(pinNr,arrayPosition)
+
+v1.2:
 - Read capacitive buttons
-- Change note number
-- Change channel number
 - Send Midi start message
 - Send midi stop message
 - Send midi continue message
