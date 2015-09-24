@@ -14,7 +14,11 @@ v1.1
 - readDigital(pinNr,arrayPosition)
 
 v1.2:
-- Read capacitive buttons
-- Send Midi start message
-- Send midi stop message
-- Send midi continue message
+- midiStart(pinNr,arrayPosition)
+- midiStop(pinNr,arrayPosition)
+- midiContinue(pinNr,arrayPosition)
+
+CapSenseMidiController:
+- convertToBoolean(val,arrayPosition)
+- readDigital(arrayPosition)
+
