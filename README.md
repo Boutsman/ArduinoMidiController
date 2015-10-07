@@ -22,3 +22,7 @@ CapSenseMidiController:
 - convertToBoolean(val,arrayPosition)
 - readDigital(arrayPosition)
 
+v1.3:
+- This version is still very Beta.
+- Like currently not working kind of beta...
+- I'm experimenting with more sysEx messages like pitchbend etc...
